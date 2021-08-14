@@ -1,0 +1,21 @@
+By github.com/stevenhva
+
+1. Follow these instructions: https://gitcoin.co/issue/nervosnetwork/grants/3/100026209
+2. From folder: gw-gitcoin-instruction/src/examples/2-deploy-contrac
+3. Input > Apply command: truffle compile
+
+Output >
+Compiling your contracts...
+===========================
+> Compiling ./contracts/TasksContract.sol
+> Artifacts written to /mnt/c/Users/Administrator/Documents/DEV/Proj/Blockchain/ETH_RnD/nervos_bounty_program/gw-gitcoin-instruction/src/examples/2-deploy-contract/build/contracts
+> Compiled successfully using:
+   - solc: 0.8.0+commit.c7dfd78e.Emscripten.clang
+
+4. Look for the followinginformation in generated file TasksContract.json:
+
+      "address": "0x...",
+      "transactionHash": "0x..."
+
+5. Use your "address" from the previous step 4 as the constant variable "CONTRACT_ADDRESS". 
+6. Submit your "transactionHash" as evidence for your work. 
